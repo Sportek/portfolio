@@ -1,6 +1,8 @@
 * {
     font-family: 'Inter', sans-serif;
     color: black;
+    margin: 0;
+    padding: 0;
 }
 
 .dark-mode{
@@ -27,4 +29,43 @@ p {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
+}
+
+.image-32px {
+    height: 32px;
+    width: 32px;
+}
+
+/*
+ Header navbar
+*/
+.header-navbar {
+    display: block;
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.header-navbar ul {
+    background-color: #333;
+    list-style-type: none;
+}
+
+.header-left-side {
+    float: left;
+}
+
+.header-right-side {
+    float: right;
+}
+
+.header-navbar li {
+    display: inline;
+}
+
+.header-navbar li a {
+    list-style-type: none;
+    padding: 10px;
+    text-decoration: none;
+    align-items: center;
 }
