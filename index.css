@@ -1,9 +1,16 @@
 * {
     font-family: 'Inter', sans-serif;
     color: black;
-    margin: 0;
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
     padding: 0;
+    margin: 0;
 }
+
 
 .dark-mode{
     background-color: black;
@@ -35,6 +42,23 @@ p {
     height: 32px;
     width: 32px;
 }
+
+header {
+    background-color: black;
+    height: 5vh;
+    width: 100%;
+}
+
+/*
+Section accueil
+*/
+
+#Accueil {
+    background-color: aquamarine;
+    height: 95vh;
+    width: 100%;
+}
+
 
 /*
  Header navbar
