@@ -1,19 +1,8 @@
 * {
     font-family: 'Inter', sans-serif;
     color: black;
-    vertical-align: baseline;
-    font-weight: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    border: 0 none;
-    outline: 0;
     padding: 0;
     margin: 0;
-}
-
-
-.dark-mode{
-    background-color: black;
 }
 
 h1 {
@@ -38,15 +27,9 @@ p {
     line-height: 24px;
 }
 
-.image-32px {
+img.image-32px {
     height: 32px;
     width: 32px;
-}
-
-header {
-    background-color: black;
-    height: 5vh;
-    width: 100%;
 }
 
 /*
@@ -59,37 +42,32 @@ Section accueil
     width: 100%;
 }
 
-
-/*
- Header navbar
-*/
-.header-navbar {
-    display: block;
-    background-color: red;
-    padding: 10px;
-    margin: 10px;
+header {
+    height: 5vh;
+    width: 100%;
 }
 
-.header-navbar ul {
-    background-color: #333;
+.header {
+    display: flex;
+}
+
+div.header-left-side {
+    margin: 5px;
+}
+
+li {
     list-style-type: none;
-}
-
-.header-left-side {
-    float: left;
-}
-
-.header-right-side {
-    float: right;
-}
-
-.header-navbar li {
     display: inline;
+    line-height: 50px;
 }
 
-.header-navbar li a {
-    list-style-type: none;
-    padding: 10px;
-    text-decoration: none;
+ul {
     align-items: center;
 }
+
+a {
+    text-decoration: none;
+    background-color: #00ff11;
+}
+
+
