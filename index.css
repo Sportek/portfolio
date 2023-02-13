@@ -36,6 +36,11 @@ h4 {
     font-size: 30px;
 }
 
+h5 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .title {
     display: flex;
     justify-content: center;
@@ -182,16 +187,17 @@ section#Accueil .home-icon {
 #Compétences {
     background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #C1CEFF 100%);
     height: 100vh;
+    display: grid;
 }
 
 #Compétences .competences {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    padding: 2vh;
+    padding-top: 5vh;
 }
 
-#Compétences .text{
+#Compétences .text {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -199,12 +205,62 @@ section#Accueil .home-icon {
     justify-content: center;
 }
 
+#Compétences .text.dev {
+    margin: 5vh;
+}
+
+#Compétences .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    row-gap: 3vh;
+    column-gap: 1vw;
+}
+
+
 #Compétences .box {
-    width: 100px;
-    height: 100px;
+    width: 5vw;
+    height: 5vw;
     background-color: #acb6f4;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+#Compétences .svg64 {
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+#Compétences .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+}
+
+#Compétences .comp-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#Compétences .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Compétences .level {
+    font-size: 12px;
+    color: #858EB0;
+}
+
+
 
 /*
     Projets
