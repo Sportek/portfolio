@@ -4,6 +4,7 @@
     color: black;
     padding: 0;
     margin: 0;
+    z-index: 1;
 }
 
 /*#Accueil, #Compétences, #Projets, footer, header {*/
@@ -29,6 +30,15 @@ h2 {
     font-size: 96px;
     font-weight: 400;
     line-height: 120px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
 }
 
 p {
@@ -64,7 +74,7 @@ img.image-32px {
 
 .links {
     display: flex;
-    gap: 10%;
+    gap: 10px;
     margin-left: 10px;
 }
 
@@ -78,7 +88,7 @@ a {
 
 header {
     position: absolute;
-    width: 100vh;
+    /*width: 100vh;*/
 }
 
 .header {
@@ -119,14 +129,22 @@ Section accueil
 section#Accueil .middle-zone {
     display: grid;
     grid-template-columns: 5fr 2fr;
-    padding: 0 10%;
     align-items: center;
     grid-gap: 2rem;
 }
 
+section#Accueil .home-text {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section#Accueil h3 {
+    font-size: 40px;
+}
+
 section#Accueil .middle-zone div.text-zone {
-    padding-right: 10%;
-    padding-left: 20%;
 }
 
 section#Accueil .middle-zone div.profil-picture img {
@@ -164,6 +182,28 @@ section#Accueil .home-icon {
 #Compétences {
     background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #C1CEFF 100%);
     height: 100vh;
+}
+
+#Compétences .competences {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 2vh;
+}
+
+#Compétences .text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+#Compétences .box {
+    width: 100px;
+    height: 100px;
+    background-color: #acb6f4;
+    border-radius: 10px;
 }
 
 /*
